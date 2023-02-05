@@ -8,3 +8,6 @@ scripts/tracking/_tracking-sites-keys.js
 
 # Unrar Exe
 unrar
+
+# IDE
+.idea/
