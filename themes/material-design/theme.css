@@ -855,7 +855,7 @@ body .preload
 
 .content-view-module > div
 {
-	width: 310px;
+	width: 328px;
 	height: 400px;
 	margin: 16px 0px 16px 16px;
 	float: left;
@@ -873,6 +873,8 @@ body .preload
 	background-repeat: no-repeat;
 	background-position: 50%;
 	transition: background-color 0.2s;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .content-view-module .v-img
@@ -931,7 +933,6 @@ body .preload
 
 .content-view-module .folder-images > img
 {
-	max-height: 200px;
 	display: inline-block;
 	vertical-align: middle;
 	border-radius: 4px;
